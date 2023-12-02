@@ -1,0 +1,25 @@
+.hills {
+    padding: ;
+    &__title {
+        color: #000;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'DM Sans';
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 119.048% */
+    }
+
+    &__info {
+        color: var(--Paragraph-Dark, #6F7787);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'DM Sans';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: 0.5px;
+    }
+}
