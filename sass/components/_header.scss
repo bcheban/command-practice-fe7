@@ -1,3 +1,79 @@
 .header{
     padding: 48px 31px 0 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .inner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.header-logo{
+    display: flex;
+    align-items:flex-end;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 0.8;
+    letter-spacing: 0.315px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFF 28.49%, rgba(255, 255, 255, 0.00) 83.19%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 94px;
+    &__svg{
+        width: 43px;
+        height: 43px;
+        fill: #FFF;
+    }
+
+    &__span{
+        width: 111px;
+        display: block;
+    }
+}
+
+.header-search{
+    background-color: transparent;
+    border: none;
+    margin-right: 29px;
+    &__svg{
+        width: 24px;
+        height: 24px;
+        fill: #FFF;
+    }
+}
+
+.header-menu{
+    background-color: transparent;
+    border: none;
+    &__svg{
+        width: 24px;
+        height: 24px;
+        fill: #FFF;
+    }
+}
+
+.header-navigation{
+    display: none;
+}
+
+.navigation-list{
+    display: flex;
+    width: 100%;
+    gap: 5%; //Змінити на більше значення якщо щось не так
+    justify-content: space-between;
+    &__link{
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
