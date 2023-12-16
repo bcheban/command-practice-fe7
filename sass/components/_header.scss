@@ -11,6 +11,10 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    @media screen and (min-width:1200px){
+        justify-content: flex-start;
+        max-width: 1921px;
+    }
 }
 
 .header-logo{
@@ -18,26 +22,35 @@
     align-items:flex-end;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 900;
     line-height: 0.8;
-    letter-spacing: 0.315px;
+    letter-spacing: 0.274px;
     text-transform: uppercase;
     background: linear-gradient(180deg, #FFF 28.49%, rgba(255, 255, 255, 0.00) 83.19%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-right: 94px;
+    @media screen and (min-width:1200px){
+        font-size: 24px;
+        letter-spacing: 0.315px;
+    }
     &__svg{
         width: 43px;
         height: 43px;
         fill: #FFF;
+        @media screen and (min-width:1200px){
+            width: 49px;
+            height: 49px;
+        }
     }
 
     &__span{
         width: 111px;
         display: block;
     }
+
 }
 
 .header-search{
@@ -49,6 +62,9 @@
         height: 24px;
         fill: #FFF;
     }
+    @media screen and (min-width:1200px){
+        display: none;
+    }
 }
 
 .header-menu{
@@ -59,10 +75,16 @@
         height: 24px;
         fill: #FFF;
     }
+    @media screen and (min-width:1200px){
+        display: none;
+    }
 }
 
 .header-navigation{
     display: none;
+    @media screen and (min-width:1200px){
+        display: flex;
+    }
 }
 
 .navigation-list{
