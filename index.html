@@ -89,7 +89,9 @@
                 </li>
               </ul>
               <div class="hero-video">
-                <img src="./images/beach.jpg" alt="content-pic" class="hero-video__preview"/>
+                <img src="./images/beach.jpg" alt="content-pic" class="hero-video__preview"
+                srcset="../images/beach@2x.jpg"
+                />
                 <div class="hero-video__play">
                   <svg class="hero-video__svg">
                     <use href="./images/icons/symbol-defs.svg#icon-play"></use>
@@ -132,6 +134,7 @@
             </li>
           </ul>
         </div>
+        
       </section>
 
       <section class="secrets">
@@ -161,12 +164,40 @@
                 <li class="carousel-desk-list__item">
                   <img src="./images/secret-3.jpg">
                 </li>
-              </ul>
+              </ul> 
               <svg class="arrow-right">
                 <use href="./images/icons/symbol-defs.svg#icon-secret-union-right"></use>
               </svg>
             </div>
             <img class="secrets-point" src="" alt="secrets-pointers">
+          </div>
+        </div>
+        <div class="numbers">
+          <div class="inner-container">
+            <h2 class="numbers__title">By The Numbers</h2>
+            <p  class="numbers__info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="numbers-list">
+              <li class="numbers-list__item">
+                <h3 class="numbers-list__title">100+</h3>
+                <p class="numbers-list__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.
+                </p>
+              </li>
+              <li class="numbers-list__item">
+                <h3 class="numbers-list__title">43,000+</h3>
+                <p class="numbers-list__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo. 
+                </p>
+              </li>
+              <li class="numbers-list__item">
+                <h3 class="numbers-list__title">30+</h3>
+                <p class="numbers-list__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -179,8 +210,40 @@
           <button type="button" class="hills__button">Learn More</button>
         </div>
       </section>
+      
+      <section class="life">
+        <div class="inner-container">
+          <h2 class="life__title">
+            Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.
+          </h2>
+          <div class="life-thumb">
+            <img srcset="" src="./images/man-life@1x.jpg " alt="man" class="life-thumb__preview">
+            <img src="./images/play-life.png" alt="play" class="life-thumb__play">
+          </div>
+          <ul class="life-list">
+            <li class="life-list__item">
+              <div class="life-list__thumb">
+                <img src="/images/palm.png" alt="road" class="life-list__img">
+              </div>
+              <div class="life-list__box">
+                <h3 class="life-list__title">In The Country</h3>
+                <p class="life-list__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p>
+              </div>
+            </li>
+            <li class="life-list__item">
 
-
+              <div class="life-list__thumb">
+                <img src="/images/city.png" alt="town" class="life-list__img">
+              </div>
+              <div class="life-list__box">
+                <h3 class="life-list__title">In The City</h3>
+                <p class="life-list__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
       <section class="gallery">
         <div class="inner-container">
           <h2 class="gallery__title">Photo Gallery</h2>
@@ -205,6 +268,7 @@
           </ul>
         </div>
       </section>
+
 
       <section class="getting">
         <div class="inner-container">
@@ -241,6 +305,10 @@
                 <article class="getting-article">
                   <div class="getting-article__thumb">
                     <img src="./images/motorbike@1x.jpg" alt="motorbike" class="getting-article__img">
+                    <svg class="getting-article__svg">
+                      <use href="./images/icons/symbol-defs.svg#icon-play">
+                      </use>
+                    </svg>
                   </div>
                   <div class="getting-article__box">
                     <input type="checkbox" class="getting-list__input" id="check-article">
