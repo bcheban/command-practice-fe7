@@ -32,17 +32,19 @@
         @media screen and (min-width:1200px) {
             font-size: 18px;
             letter-spacing: 0.5px;
+            line-height: 1.55;
         }
     }
 
     &__left {
         display: flex;
         flex-direction: column;
-
+       
         @media screen and (min-width:1200px) {
             flex-direction: row;
             justify-content: space-between;
             gap: 124px;
+            width: 100%;
         }
 
     }
@@ -60,6 +62,7 @@
 }
 
 .footer-tablet {
+
     @media screen and (min-width:768px) and (max-width:1199px) {
         display: flex;
         gap: 100px;
@@ -69,6 +72,7 @@
 
     @media screen and (min-width:1200px) {
         display: flex;
+        gap: 100px;
         align-items: center;
         justify-content: space-between;
     }
@@ -180,7 +184,7 @@
 }
 
 .footer-up {
-    &__img {
+   
         position: absolute;
         width: 104px;
         height: 104px;
@@ -192,6 +196,6 @@
             left: auto;
             right: 96px;
         }
-    }
+  
 
 }
