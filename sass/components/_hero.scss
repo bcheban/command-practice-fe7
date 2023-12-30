@@ -11,7 +11,7 @@
 }
 
 .hero {
-  background-image: url("../../images/background/hero-background.jpg");
+  background-image: url("../images/background/hero-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,7 @@
       margin-bottom: 21px;
       &::before {
         content: ''; 
-            background-image: url("../../images/icons/hero-line.svg");
+            background-image: url("../images/icons/hero-line.svg");
             width: 22px;
             height: 437px;
             background-repeat: no-repeat;
@@ -106,7 +106,7 @@
     justify-content: space-between;
     &::before {
       content: ''; 
-          background-image: url("../../images/icons/Fb-In-Tw.svg");
+          background-image: url("../images/icons/Fb-In-Tw.svg");
           width: 21px;
           height: 140px;
           background-repeat: no-repeat;
