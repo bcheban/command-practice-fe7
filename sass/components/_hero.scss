@@ -11,13 +11,13 @@
 }
 
 .hero {
-  background-image: url("../../images/background/hero-background.jpg");
+  background-image: url("../images/background/hero-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   @media screen and (min-width:1200px) {
     @media (min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2/1), (min-resolution:192dpi), (min-resolution:2dppx){
-        background-image: url("../../images/background/desktop/hero-bg@2x.jpg");
+        background-image: url("../images/background/desktop/hero-bg@2x.jpg");
     }
 }
   &__title {
@@ -33,7 +33,19 @@
       font-size: 120px;
       line-height: 1.08;
       margin-bottom: 21px;
+      &::before {
+        content: ''; 
+            background-image: url("../images/icons/hero-line.svg");
+            width: 22px;
+            height: 437px;
+            background-repeat: no-repeat;
+            position: absolute;
+            z-index: 100;
+            top: 0;
+            left: -191px;
     }
+    }
+    
   }
 
   &__button {
@@ -81,6 +93,7 @@
 }
 
 .hero-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 35px 32px 30px;
@@ -91,6 +104,22 @@
     flex-direction: row;
     padding: 41px 128px 50px 71px;
     justify-content: space-between;
+    &::before {
+      content: ''; 
+          background-image: url("../images/icons/Fb-In-Tw.svg");
+          width: 21px;
+          height: 140px;
+          background-repeat: no-repeat;
+          position: absolute;
+          z-index: 100;
+          top: 35px;
+          left: -191px;
+          fill: #FFF;
+          /* Shadow Light */
+          text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.10);
+          font-size: 16px;
+          font-weight: 700;
+  }
   }
   &__item {
     display: flex;
@@ -158,12 +187,12 @@
     }
   }
   &__svg {
-    width: 33px;
-    height: 34px;
+    width: 15px;
+    height: 20px;
     fill: #000;
     @media screen and (min-width: 1200px) {
-      width: 44px;
-      height: 44px;
+      width: 20px;
+      height: 26px;
     }
   }
 }
