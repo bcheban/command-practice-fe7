@@ -1,12 +1,20 @@
 .articles {
-    background-image: url("../../images/background/articles-bg@1x.jpg");
+    background-image: url("../images/background/articles-bg@1x.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size:cover;
-  }
-
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx);
+    {background-image: url("../images/background/articles-bg@1x.jpg")};
+    
   .articles .inner-container {
     padding: 40px 30px 48px;
+    @media screen and (min-width:1200px) {
+      padding: 207px 30px 305px;
+    }
 
   }
 
@@ -30,6 +38,7 @@
         object-fit: cover;
         object-position: center;
         border-radius: 10px;
+        
     }
     &__box {
         display: flex;
