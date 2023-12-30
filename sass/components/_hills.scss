@@ -1,5 +1,8 @@
 .hills .inner-container {
     padding: 171px 30px 116px;
+    @media screen and (min-width: 1200px) {
+        padding: 246px 30px 257px;
+    }
 }
 
 .hills {
@@ -18,7 +21,14 @@
         width: 330px;
         height: 144px;
         background-image: url("../../images/hills-line1-mobile.png");
+
+        @media screen and (min-width: 1200px) {
+        width: 577px;
+        height: 820px;
+        background-image: url("../../images/hills-line1-desk.png");
+        }
     }
+    
 
     &::after {
         bottom: 0;
@@ -26,47 +36,45 @@
         width: 375px;
         height: 220px;
         background-image: url("../../images/hills-line2-mobile.png");
+
+        @media screen and (min-width: 1200px) {
+        width: 755px;
+        height: 411px;
+        background-image: url("../../images/hills-line2-desk.png"); 
+        }
     }
 
     &__title {
         color: #000;
         text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: 'DM Sans';
-        font-size: 42px;
+        font-size: 40px;
         font-weight: 700;
-        line-height: 1.19;
-        padding-bottom: 32px;
+        line-height: 1.15;
+        margin-bottom: 36px;
     }
 
     &__info {
-        color: var(--Paragraph-Dark, #6F7787);
+        color: #6F7787;
         text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: 'DM Sans';
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 1.55; /* 155.556% */
+        line-height: 1.5;
         letter-spacing: 0.5px;
-        margin-bottom: 36px;
+        margin-bottom: 41px;
     }
 
     &__button {
         display: flex;
         width: 314px;
         height: 73px;
-        margin: 16px 24px;
         justify-content: center;
         align-items: center;
-        gap: 24px;
         border-radius: 122px;
-        background: #DD2242;
-        color: var(--neutral-white, #FFF);
-        font-family: 'DM Sans';
+        background-color: #DD2242;
+        color: #FFF;
         font-size: 18px;
         font-weight: 700;
-        line-height: 150%; /* 27px */
-        text-align: center;
+        line-height: 1.5; 
         margin: 0 auto;
         border: none;
     }
