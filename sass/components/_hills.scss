@@ -51,6 +51,14 @@
         font-weight: 700;
         line-height: 1.15;
         margin-bottom: 36px;
+
+        @media screen and (min-width: 1200px) {
+            color: #000;
+            text-align: center;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 50px; /* 119.048% */
+        }
     }
 
     &__info {
@@ -61,6 +69,14 @@
         line-height: 1.5;
         letter-spacing: 0.5px;
         margin-bottom: 41px;
+
+        @media screen and (min-width: 1200px) {
+            color: #6F7787;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px; /* 155.556% */
+        }
     }
 
     &__button {
@@ -74,9 +90,27 @@
         color: #FFF;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.5; 
+        line-height: 2.7px; 
         margin: 0 auto;
         border: none;
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            width: 210px;
+            height: 64px;
+            padding: 16px 24px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 122px;
+            background-color: #DD2242;
+            color: #FFF;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 2.7px; /* 27px */
+            border: none;
+            margin: 0 auto;
+        }
     }
 
 }

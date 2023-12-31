@@ -1,31 +1,30 @@
 .gallery {
 
     &__title {
-        width: 615.361px;
+        display: flex;
+        width: 314px;
+        height: 52px;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         color:#010A20;
-        font-family: 'DM Sans' sans-serif;
         font-size: 60px;
         font-style: normal;
         font-weight: 700;
         line-height: 150%; /* 90px */
-        padding-top: 177px;
-
-        
+        margin-top: 177px;
     }
 
     &__info {
+        width: 314px;
+        height: 160px;
         color:#6F7787;
         text-align: center;
-        font-family: 'DM Sans' sans-serif;
         font-size: 18px;
-        font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 155.556% */
         letter-spacing: 0.18px;
-        padding-top: 42px;
+        margin-top: 42px;
     }
 
 }
