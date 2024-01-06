@@ -12,6 +12,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/main.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -104,7 +105,7 @@
         </div>
       </section>
 
-      <section class="articles">
+      <section class="articles" data-aos="fade-down">
         <div class="inner-container">
           <ul class="articles-list">
             <li class="articles-list__item">
@@ -138,7 +139,7 @@
 
       </section>
 
-      <section class="secrets">
+      <section class="secrets" data-aos="fade-down">
         <div class="inner-container">
           <h2 class="secrets__title">Explore Our Secrets</h2>
           <div class="carousel-container">
@@ -173,7 +174,7 @@
             <img class="secrets-point" src="./images/secrets-pointers.png" alt="secrets-pointers">
           </div>
         </div>
-        <div class="numbers">
+        <div class="numbers" data-aos="fade-down">
           <div class="inner-container">
             <h2 class="numbers__title">By The Numbers</h2>
             <p class="numbers__info">
@@ -204,7 +205,7 @@
         </div>
       </section>
 
-      <section class="hills">
+      <section class="hills" data-aos="fade-down">
         <div class="inner-container">
           <h2 class="hills__title">Our hills and valleys are like nothing you’ve seen.</h2>
           <p class="hills__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna
@@ -219,7 +220,7 @@
 
 
 
-      <section class="life">
+      <section class="life" data-aos="fade-down">
         <div class="life-backdrop">
         <div class="inner-container">
           <h2 class="life__title">
@@ -257,7 +258,7 @@
       </div>
       </section>
 
-      <section class="gallery">
+      <section class="gallery" data-aos="fade-down">
         <div class="inner-container">
           <h2 class="gallery__title">Photo Gallery</h2>
           <p class="gallery__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Phasellus dapibus
@@ -283,7 +284,7 @@
           </ul>
         </div>
       </section>
-      <section class="getting">
+      <section class="getting" data-aos="fade-down">
         <div class="inner-container">
           <h2 class="getting__title">
             Getting there
@@ -428,6 +429,10 @@
         </div>
     </footer>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
