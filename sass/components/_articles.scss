@@ -75,6 +75,12 @@
       font-size: 42px;
       line-height: 1.19;
     }
+    @media screen and (max-width:767px) {
+      font-size: 38px;
+      line-height: 1.1;
+      flex-direction: row;
+      text-align: center;
+    }
     }
     &__paragr {
     color: #e0e0e0;
@@ -85,6 +91,11 @@
       letter-spacing: 0.18;
       line-height: 1.55;
       width: 408px;
+      @media screen and (max-width:767px) {
+        font-size: 15px;
+        align-items: center;
+        flex-direction: row;
+      }
     }
     }
     &__btn {
